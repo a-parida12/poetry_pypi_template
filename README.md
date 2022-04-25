@@ -37,3 +37,19 @@ Just follow the seteps below for an hassle free setup of the project.
 - All the tests should pass when you run the command `poetry run pytest tests/`
 - Details on how to implement [tests with pytest](https://realpython.com/pytest-python-testing/).
 
+## Github Actions Configuration
+
+- all the github actions are defined in the `.github/workflows` folder
+- setup the `test.yml`. Update the env variables according to the project setup before. The default coverage limit is set to 90% ie the test will fail below the coverage of 90.
+
+``` yaml
+env:
+  PYTHON_VERSION: "3.8.5"
+  PROJECT_FOLDER: hapy_pypi
+  TEST_FOLDER: tests
+  COVERAGE_LIMIT: 90
+```
+
+- setup the similar env variables in `release.yml` as well.
+
+## Setup Secrets
