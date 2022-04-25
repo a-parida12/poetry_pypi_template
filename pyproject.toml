@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "package_name"
+name = "hapy_pypi"
 version = "0.1.1"
 description = "A poetry template for release to pypi"
 authors = ["Abhijeet Parida <abhijeet.parida@tum.de>"]
 license = "MIT"
-repository = 'https://github.com/a-parida12/package_name'
+repository = 'https://github.com/a-parida12/poetry_pypi_template'
 readme = 'README.md'
 keywords = ["python", "packaging", "pypi", "poetry", "pip", "github-actions"]
 
