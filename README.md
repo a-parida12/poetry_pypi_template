@@ -1,5 +1,15 @@
 # poetry_pypi_template
-A minimal template for creating a pypi package using poetry and github actions
+
+> A minimal template for creating a pypi package using poetry and github actions
+
+This template allows the creation of python projects managed by poetry to be submitted to PyPi. All the github actions have been setup too. The github actions run tests on every push and also creates and new pacakage and pushes to the pypi when a merge happens to the release branch.
+
+Just follow the seteps below for an hassle free setup of the project.
+
+## Create from the Project Template
+
+- [Click here](https://github.com/a-parida12/poetry_pypi_template/generate) to create a new repo (you need to be logged in to GitHub for this link to work), and follow the instructions to create a new repo from this template.
+- `git clone` your new repo
 
 ## Install Poetry in your Environment
 
