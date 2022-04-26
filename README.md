@@ -53,3 +53,20 @@ env:
 - setup the similar env variables in `release.yml` as well.
 
 ## Setup Secrets
+
+### Pypi Creds
+
+These secrets are used to push releases to the pypi repository.
+
+- Generate a pypi [api token](https://pypi.org/help/#apitoken)
+- [Set Repo Secrets](https://github.com/Azure/actions-workflow-samples/blob/master/assets/create-secrets-for-GitHub-workflows.md)
+- Add `PYPI_USER` as `__token__`
+- Add `PYPI_TOKEN` as the token from above step including the `pypi-` prefix
+
+### Github Token
+
+This secret is required to generate the `CHANGELOG.MD` and update the version by SemRel.
+
+- Generate a [github token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+- [Set Repo Secrets](https://github.com/Azure/actions-workflow-samples/blob/master/assets/create-secrets-for-GitHub-workflows.md)
+- Add `GH_TOKEN` as the token from github.
