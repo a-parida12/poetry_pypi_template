@@ -4,7 +4,7 @@ on:
     branches: [ main ]
 
 env:
-  PYTHON_VERSION: "3.8.5"
+  PYTHON_VERSION: "3.8.15"
   PROJECT_FOLDER: hapy_pypi
   TEST_FOLDER: tests
   
