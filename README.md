@@ -63,6 +63,13 @@ These secrets are used to push releases to the pypi repository.
 - Add `PYPI_USER` as `__token__`
 - Add `PYPI_TOKEN` as the token from above step including the `pypi-` prefix
 
+### Code-Cov Creds
+
+These secrets are used to display the code coverage report using code cov.
+
+- Generate a codecov [api token](https://docs.codecov.com/docs/quick-start)
+- [Set Repo Secrets](https://github.com/Azure/actions-workflow-samples/blob/master/assets/create-secrets-for-GitHub-workflows.md)
+- Add `CODECOV_TOKEN` as the api token.
 ### Github Token
 
 This secret is required to generate the `CHANGELOG.MD` and update the version by SemRel.
